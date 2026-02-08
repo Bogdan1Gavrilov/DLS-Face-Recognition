@@ -23,7 +23,7 @@ Task3.ipynb - задание 3, примеры использования пай
 ## Использование
 Веса моделей можно установить по ссылке - https://drive.google.com/drive/folders/1BJrTebLlIZjTROwX2EyM8EFcWOGJf8YF?usp=sharing       
 
-В пайплайне используются 'weights\final_ce_model.pth' и 'weights\final_arc_model' в зависимости от выбранного флага use_arcface, 'weights\yolov8n-face' для модели детекции и 'weights\hourglass_model' для модели поиска точек
+В пайплайне используются 'weights\final_ce_model.pth' и 'weights\final_arc_model' в зависимости от выбранного флага use_arcface, 'weights\yolov8n-face' для модели детекции и 'weights\hourglass_model' для модели поиска точек - это является минимальным скачиваемым набором для запуска пайплайна. 
 
 ```python
 # Импортируем всё необходимое для работы пайплайна
@@ -38,5 +38,7 @@ matches = match_and_show_pairs(
     лиц, однако при планке в районе 0.46 пользоваться CE моделью кое-как возможно'''
 )
 ```
+
+В результате запуска данного кода с вашими путями до изображений, будут отрисованы два исходных изображения и пары совпавших по мнению модели лиц с их косинусным сходством
 ## Для связи
 tg - @Dance_of_the_God
