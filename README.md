@@ -19,7 +19,7 @@ Task3.ipynb - задание 3, примеры использования пай
 +----dataset_prepare - отбор фотографий       
 +----FRProject - блокнот с обучением stacked hourglass и афинным преобразованием фотографий    
 
-## Usage
+## Использование
 Веса моделей можно установить по ссылке - https://drive.google.com/drive/folders/1BJrTebLlIZjTROwX2EyM8EFcWOGJf8YF?usp=sharing       
 
 В пайплайне используются 'weights\final_ce_model.pth' и 'weights\final_arc_model' в зависимости от выбранного флага use_arcface, 'weights\yolov8n-face' для модели детекции и 'weights\hourglass_model' для модели поиска точек
